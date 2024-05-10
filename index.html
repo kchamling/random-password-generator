@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Random Password Generator</title>
     <link rel="stylesheet" href="style.css" />
     <link
@@ -10,22 +12,22 @@
     <script src="app.js" defer></script>
   </head>
   <body>
-    <div class="container">
-      <div class="display">
+    <main>
+      <div class="container">
         <h1>
           Generate a random <br />
           <span>Password Generator</span>
         </h1>
-
         <div class="input-box">
-          <input id="password" type="text" placeholder="Password" />
-          <img id="copy-icon" src="images/copy.png" alt="copy icon" />
+          <input type="text" />
+          <img src="images/copy.png" />
         </div>
 
-        <button id="generate-btn">
-          <img src="images/generate.png" /> Generate Password
-        </button>
+        <div class="btn">
+          <img src="images/generate.png" />
+          <button type="button">Generate Password</button>
+        </div>
       </div>
-    </div>
+    </main>
   </body>
 </html>
