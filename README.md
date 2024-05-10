@@ -2,6 +2,10 @@
 
 This repository contains a simple password generator web application built using HTML, CSS, and JavaScript. The application generates secure passwords based on user-defined criteria and allows for easy copying of generated passwords to the clipboard.
 
+## Demo
+
+You can access the live demo of the password generator [here](https://kchamling.github.io/random-password-generator/).
+
 ## Features
 
 - Generates passwords with a length of 16 characters.
@@ -29,7 +33,4 @@ To use the password generator:
 - The `generatePasswordBtn` event listener triggers the password generation process when the "Generate Password" button is clicked.
 - The `copyIcon` event listener triggers the copying of the generated password to the clipboard when the copy icon is clicked.
 - Error handling is included to prevent copying of blank passwords and to handle any errors that may occur during the clipboard copying process.
-
-
-
 
